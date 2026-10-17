@@ -1,0 +1,9 @@
+Algorithm
+1. Insert the key as in a normal BST.
+2. Walk back up to the root, updating the height and BF of each ancestor.
+3. At the first node z with |BF| = 2, check: if BF(z) = -2 and BF(z.right) = +1, it is an RL case.
+4. Print BFs of z, y = z.right and x = y.left (before).
+5. Step 1: Right-rotate y. x becomes z's right child. Print the intermediate tree.
+6. Step 2: Left-rotate z. x becomes the root of the subtree.
+7. Print the final tree and the BFs of x, z and y (after).
+8. Continue upward until the root is reached.
