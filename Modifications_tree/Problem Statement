@@ -1,0 +1,5 @@
+Problem Statement:
+Implement an AVL tree and demonstrate how an RL (Right-Left) imbalance is corrected using a
+double rotation: a right rotation on the right child, followed by a left rotation on the unbalanced node.
+Display each step of the double rotation, print the balance factors before and after rebalancing, and
+test a second insertion sequence that also produces an RL imbalance.
