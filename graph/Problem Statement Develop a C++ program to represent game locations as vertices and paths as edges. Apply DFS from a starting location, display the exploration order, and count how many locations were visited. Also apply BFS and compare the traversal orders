@@ -1,0 +1,2 @@
+Problem Statement
+Develop a C++ program to represent game locations as vertices and paths as edges. Apply DFS from a starting location, display the exploration order, and count how many locations were visited. Also apply BFS and compare the traversal orders
