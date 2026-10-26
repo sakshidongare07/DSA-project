@@ -1,0 +1,11 @@
+Algorithm
+Start the program.
+Create a graph using an adjacency list to represent locations and paths.
+Accept the number of locations and paths from the user.
+Add the paths between the locations to the graph.
+Accept the starting location.
+Apply DFS using recursion and display the exploration order.
+Count and display the number of locations visited by DFS.
+Apply BFS using a queue and display the exploration order.
+Compare the DFS and BFS traversal orders.
+Stop the program.
