@@ -1,0 +1,12 @@
+Algorithm 
+Start the program.
+Read the number of vertices and edges.
+Create an adjacency list to represent the graph.
+Enter the paths connecting the vertices.
+Accept the starting vertex from the user.
+Apply DFS and display the traversal order.
+Apply BFS using a queue and display the traversal order.
+Mark all vertices visited during BFS as reachable.
+Count the reachable vertices and display their BFS levels.
+Display the vertices that are unreachable from the starting vertex.
+Stop the program.
